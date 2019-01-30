@@ -5,7 +5,7 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".MainActivity">
+        tools:context=".WelcomeActivity">
 
     <TextView
             android:layout_width="wrap_content"
@@ -51,7 +51,7 @@
             app:layout_constraintEnd_toEndOf="parent" android:layout_marginStart="8dp"
             app:layout_constraintStart_toStartOf="parent" android:textStyle="bold"/>
     <TextView
-            android:text="Find a team in your city & dominate the league "
+            android:text="Find a team in your city, and dominate the league "
             android:layout_width="252dp"
             android:layout_height="50dp"
             android:id="@+id/textView3" android:textColor="@color/colorAccent"
